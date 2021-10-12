@@ -7,7 +7,7 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
+  // overflow: hidden;
   position: absolute;
   top: 0;
   left: 0;
