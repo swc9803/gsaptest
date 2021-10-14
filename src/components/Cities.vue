@@ -59,4 +59,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#img1, #img2, #img3, #img4, #img5 {
+  position: absolute;
+  overflow: hidden;
+  filter: grayscale(10) blur(3px);
+}
 </style>
