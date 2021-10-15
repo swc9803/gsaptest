@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <Cities class="svg" style="z-index: 9"/>
-    <!-- <img class="city1" src="@/assets/city1.jpg">
+    <img class="city1" src="@/assets/city1.jpg">
     <img class="city2" src="@/assets/city2.jpg">
     <img class="city3" src="@/assets/city3.jpg">
     <img class="city4" src="@/assets/city4.jpg">
-    <img class="city5" src="@/assets/city5.jpg"> -->
+    <img class="city5" src="@/assets/city5.jpg">
   </div>
 </template>
 
