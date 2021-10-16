@@ -1,5 +1,5 @@
 <template>
-  <div id="no01" class="wrapper">
+  <div id="no01" class="container">
     <div class="boxes">
       <div class="box">GreenSock</div>
       <div class="box">Nice Tool</div>
@@ -11,7 +11,7 @@
     </div>
   </div>
 
-  <div id="no02" class="wrapper">
+  <div id="no02" class="container">
     <div class="boxes">
       <div class="box">GreenSock</div>
       <div class="box">Nice Tool</div>
@@ -23,7 +23,7 @@
     </div>
   </div>
 
-  <div id="no03" class="wrapper">
+  <div id="no03" class="container">
     <div class="boxes">
       <div class="box">GreenSock</div>
       <div class="box">Nice Tool</div>
@@ -45,7 +45,7 @@ export default {
     onMounted(() => {
       console.clear()
 
-      gsap.set('.wrapper', { xPercent: -50, yPercent: -50 })
+      gsap.set('.container', { xPercent: -50, yPercent: -50 })
       gsap.set('#no02', { y: 50 })
       gsap.set('#no03', { y: 120 })
 
@@ -92,7 +92,7 @@ body {
   background:grey;
   font-family:Asap, sans-serif;
 }
-.wrapper{
+.container{
   position:fixed;
   width:150%;
   height:50px;
@@ -101,7 +101,7 @@ body {
   background:grey;
   overflow:hidden;
 }
-.wrapper .box{
+.container .box{
   position:absolute;
   width: 250px;
   height:50px;
@@ -112,7 +112,7 @@ body {
   line-height:50px;
   text-align:center;
 }
-.wrapper .boxes {
+.container .boxes {
   position:relative;
   left:-250px;
 }
